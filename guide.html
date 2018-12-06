@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>VS Workloads</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+    <nav class="light-blue darken-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Visual Studio</a>
+            <ul class="right hide-on-med-and-down">         
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="guide.html">Install Guide</a></li>
+                <li><a href="workloads.html">Workloads</a></li>
+            </ul>
+    
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="guide.html">Install Guide</a></li>
+                <li><a href="workloads.html">Workloads</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+          <br>
+          <h4 class="header center blue-text">Installation Guide</h4>
+          <div class="row center">
+            <h7 class="header col s12 light">A step-by-step guide for installing the Visual Studio IDE using our installer</h7>
+          </div> 
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col s8 offset-s2">
+          <ul class="collapsible">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">file_download</i>Download the Visual Studio Installer</div>
+                <div class="collapsible-body">
+                  <span>Download the Visual Studio bootstrapper file. To do so, click the following button, select the edition of Visual Studio 2017 that you want, click Save, and then click Open folder.</span><br><br>
+                  <a class="waves-effect waves-light btn orange" href="https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017">Download Visual Studio 2017</a>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">personal_video</i>Run the Visual Studio Installer executable</div>
+                <div class="collapsible-body">
+                  <span>If this is your first time launching VS Installer, we'll ask you to acknowledge the Microsoft <a href="https://visualstudio.microsoft.com/license-terms/">License Terms</a> and the Microsoft <a href="https://privacy.microsoft.com/privacystatement">Privacy Statement</a>. Click <b>Continue</b>.</span><br><br>
+                  <img class="responsive-img" src="images/vs2017-privacy-and-license-terms.png">
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">check_box</i>Select workload(s)</div>
+                <div class="collapsible-body"><span>Execute a lightweight and fast installation with only the tools you need. Customize your installation by selecting the workload(s) you want. Click <b>Install</b>.</span><br><br>
+                    <img class="responsive-img" src="images/install-visual-studio-community.png"><br><br>
+                    <a class="waves-effect waves-light btn orange" href="workloads.html" target="_blank">What should I install?</a>
+                </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="material-icons">settings</i>Customize further (optional)</div>
+                  <div class="collapsible-body">
+                    <span>Select additional components to install in the <b>Individual components</b> tab.</span><br><br>
+                    <img class="responsive-img" src="images/vs2017-components.png"><br><br>
+                    <span>Install Visual Studio in a language of your choosing in the <b>Language packs</b> tab.</span><br><br>
+                    <img class="responsive-img" src="images/vs2017-languages.png"><br><br>
+                    <span>Change the installation location (new in 15.7) in the <b>Installation locations</b> tab.</span><br><br>
+                    <img class="responsive-img" src="images/installation-options-by-location.png">
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="material-icons">launch</i>Launch Visual Studio</div>
+                  <div class="collapsible-body"><span>Click the <b>Launch</b> button to get started developing with Visual Studio.</span><br><br>
+                  <img class="responsive-img" src="images/willow-launch.png"><br><br>
+                  <span>Happy coding! :)</span>
+                  </div>
+              </li>
+          </ul>
+        </div>
+        </div>
+    </div>
+            
+      <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/script.js"></script>
+</body>
